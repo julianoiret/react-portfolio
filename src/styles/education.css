@@ -67,7 +67,8 @@
   }
   
   #education .box-education .contenu {
-    padding: 10px 20px 10px 20px;
+    padding: 30px 20px 10px 20px;
+    border-top: 1px solid grey;
   }
   
   #education .box-education .contenu .what-is-it {
