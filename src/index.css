@@ -1,3 +1,16 @@
+/* Import CSS files by section */
+@import url('styles/nav.css');
+@import url('styles/banner.css');
+@import url('styles/about.css');
+@import url('styles/projects.css');
+@import url('styles/skills.css');
+@import url('styles/education.css');
+@import url('styles/experience.css');
+@import url('styles/interests.css');
+@import url('styles/contact.css');
+
+/* GENERAL */
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +18,55 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #F7F7F7;
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.container-right {
+  width: 85% !important;
+  float: right;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  cursor: pointer;
+}
+
+.cover_image_content {
+  position: absolute;
+  color: white;
+  bottom: 0;
+  margin-bottom: 35px;
+  margin-left: 25px;
+}
+
+.detail_content {
+  padding: 20px;
+  position: relative;
+}
+
+.hidden {
+  display: none;
+}
+
+
+/* MEDIA QUERIES */
+
+@media(max-width: 480px) and (min-width: 320px) /* iPhone & other */ {
+  .container-right {
+    width: 100% !important;
+  }
+}
+
+@media(max-width: 1000px) and (min-width: 481px) /* ipad */ {
+  .container-right {
+    width: 100% !important;
+  }
 }
