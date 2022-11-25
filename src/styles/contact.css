@@ -12,8 +12,6 @@
   }
   
   #contact .box-contact {
-    display: flex;
-    flex-direction: column;
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 20px;
@@ -39,7 +37,7 @@
     background-color: #F7F7F7;
     width: 60px;
     height: 60px;
-    color: #cb997e;
+    color: #cb997e !important;
     font-size: 30px;
     border-radius: 50px;
     text-align: center;
