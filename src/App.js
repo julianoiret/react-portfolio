@@ -8,10 +8,11 @@ import Projects from "./components/Projects";
 import ResponsiveNav from "./components/ResponsiveNav";
 import Sidebar from "./components/Sidebar";
 import Skills from "./components/Skills";
-import { experienceData } from "./data";
+import { experienceData, educationData } from "./data";
 
 function App() {
-  const data = experienceData;
+  const data = experienceData && educationData;
+  console.log("DATA", data);
   return (
     <>
     <Sidebar></Sidebar>
@@ -20,7 +21,7 @@ function App() {
     <About></About>
     <Projects></Projects>
     <Skills></Skills>
-    <Education></Education>
+    <Education data={data}></Education>
     <Experience data={data}></Experience>
     <Interests></Interests>
     <Contact></Contact>

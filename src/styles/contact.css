@@ -45,7 +45,7 @@
     box-shadow: 0 2px 3px rgba(0,0,0,0.16), 0 2px 3px rgba(0,0,0,0.23);
   }
   
-  .fa-github:hover, .fa-linkedin-in:hover, .fa-envelope:hover {
+  .fa-github:hover, .fa-linkedin-in:hover, .fa-envelope-open:hover {
     opacity: .5;
   }
   
