@@ -19,6 +19,11 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    flex-wrap: wrap;
+  }
+
+  #interests .box-interests .interest {
+    padding: 30px;
   }
   
   #interests .box-interests .interest .title-interest {
@@ -32,7 +37,7 @@
     width: 80px;
   }
   
-  #interests .box-interests .interest .logo-crafting {
+  #interests .box-interests .interest .logo-resize {
     width: 70px;
   }
   

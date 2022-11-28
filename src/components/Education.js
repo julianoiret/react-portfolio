@@ -13,7 +13,7 @@ const Education = ({data}) => {
                   <div className="card box-education">
                     <div className="box-title-education">
                         <div className="left-part">
-                            <img className={id === 2 ? 'logo-education2' : 'logo-education'} src={logo} alt={name}></img>
+                            <img className={id === 3 ? 'logo-education2' : 'logo-education'} src={logo} alt={name}></img>
                             <h2>{name}</h2>
                         </div>
                         <a href={website} target="_blank"><i class="fas fa-link"></i></a>

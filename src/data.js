@@ -4,7 +4,7 @@ export const experienceData = [
         job: "👩🏻‍💻 Associate Developer | REA Group",
         date: "2022 - Present",
         description: "random text random text random text random text random text",
-        where: "Australia"
+        where: "Sydney (Australia)"
     },
     {
         id: 2,
@@ -46,6 +46,17 @@ export const experienceData = [
 export const educationData = [
     {
         id: 1,
+        logo: require(`./images/apollo.png`),
+        name: "Apollo Odyssey",
+        website: "https://www.apollographql.com/",
+        title: "Apollo Graph Developer | Associate",
+        description: "Odyssey is Apollo's official learning platform that offers free hands-on GraphQL tutorials. Each GraphQL tutorial comes with a real-life application that I built along with the instructor, step by step. I got many opportunities to practice with in-lesson code challenges to keep things concrete and hands-on.",
+        curriculum: ["Understand the GraphQL & Apollo ecosystem", "Design a basic schema", "Create an Apollo Server and connect to a REST data source", "Implement Apollo Client library in a React app, build a basic GraphQL query and display results", "Use arguments in queries and resolvers", "Add a mutation to the schema", "Explain the best practices for shaping a mutation response and handling errors", "Use the `useMutation` hook to send a mutation to the server"],
+        accomplishment: ["Shipped to production an app 'Catstronauts", "Configure Apollo Server and Client for production"],
+        time: "Certification issued on October 2022 | Online",
+    },
+    {
+        id: 2,
         logo: require(`./images/le-wagon.png`),
         name: "Le Wagon",
         website: "https://www.lewagon.com/melbourne",
@@ -56,7 +67,7 @@ export const educationData = [
         time: "April 2021 - June 2021 | Melbourne, Australia",
     },
     {
-        id: 2,
+        id: 3,
         logo: require(`./images/coursera.png`),
         name: "Coursera | University of Michigan",
         website: "https://www.coursera.org/specializations/web-design",
@@ -67,7 +78,7 @@ export const educationData = [
         time: "2019 - 2020 | Online, on my free time",
     },
     {
-        id: 3,
+        id: 4,
         logo: require(`./images/iaelille.png`),
         name: "IAE Lille",
         website: "https://iaelille.fr/",

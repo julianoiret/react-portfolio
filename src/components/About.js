@@ -8,7 +8,7 @@ const About = () => {
                 completed <a href="https://www.lewagon.com/" target="_blank" rel="noreferrer"><nobr>Le Wagon</nobr></a> web development bootcamp, rated by students best
                 bootcamp in the world.<br />
                 I’ve always had an interest for design. From my background in hospitality, sales and customer relationship, I developed a customer-focused mindset, essential to design websites tailored for my clients and users. Both this passion for design and my work experiences make me particularly conscious of the user interface and experience.<br />
-                I'm currently working at REA Group, ranked one of the best workplace in Australia and one of the best workplace for women in tech.</p>
+                I'm currently working at REA Group, ranked one of the best place to work in Australia and one of the best workplace for women.</p>
             </div>
         </div>
         </>

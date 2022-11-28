@@ -9,7 +9,7 @@
   
   .box-skills {
     background-color: #FCFCFC;
-    width: 60%;
+    width: 80%;
     margin: 60px auto;
     padding-top: 20px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
@@ -21,39 +21,40 @@
     padding-left: 20px;
     padding-bottom: 10px;
   }
+
+  .border {
+    height: 1px;
+    color: #000000;
+    background-color: #000000;
+    width: 60%;
+  }
   
   .flex-skills {
     display: flex;
     justify-content: space-around;
     margin-top: 30px;
     align-items: flex-end;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+
+  .container-skills {
+    padding: 40px;
   }
   
   .flex-start {
     /*justify-content: space-evenly;*/
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
   }
   
-  .flex1 {
-    margin-left: 40px;
-    margin-right:  45px;
+  /* .flex1 {
+    margin-left: 20px;
+    margin-right:  25px;
   }
   
   .flex2 {
-    margin-left: 40px;
-  }
-  
-  .size1 {
-    width: 90px;
-  }
-  
-  .size2 {
-    width: 100px;
-  }
-  
-  .size3 {
-    width: 150px;
-  }
+    margin-left: 20px;
+  } */
   
   .flex-skills p {
     text-align: center;
