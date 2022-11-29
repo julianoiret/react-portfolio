@@ -1,6 +1,6 @@
 import { experienceData } from "../data";
 
-const Experience = ({data}) => {
+const Experience = () => {
 
     return (
         <>

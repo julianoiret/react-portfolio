@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-no-target-blank */
 import { educationData } from "../data";
 
-const Education = ({data}) => {
+const Education = () => {
     return (
         <>
         <div className="container-right">

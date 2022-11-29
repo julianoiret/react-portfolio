@@ -9,7 +9,6 @@ export const projectsData = [
         note: '',
         webLink: 'https://react-playlist.netlify.app/',
         github: 'https://github.com/julianoiret/playlist-react',
-        youtube: '',
     },
     {
         id: 2,
@@ -33,7 +32,6 @@ export const projectsData = [
         note: '...& more projects!',
         webLink: 'https://react-projects-julia.netlify.app/',
         github: 'https://github.com/julianoiret/react-projects-portfolio',
-        youtube: '',
     },
     {
         id: 4,
@@ -45,7 +43,6 @@ export const projectsData = [
         note: '',
         webLink: 'https://client-catstronauts-julia-h.herokuapp.com/',
         github: 'https://github.com/julianoiret/odyssey-lift-off-part5-client',
-        youtube: '',
     },
     {
         id: 5,
@@ -57,7 +54,6 @@ export const projectsData = [
         note: 'Before bootcamp',
         webLink: 'https://julianoiret.github.io/website-template-2/',
         github: 'https://github.com/julianoiret/website-template-2',
-        youtube: '',
     },
     {
         id: 6,
@@ -69,7 +65,6 @@ export const projectsData = [
         note: 'Before bootcamp',
         webLink: 'https://julianoiret.github.io/template-3/',
         github: 'https://github.com/julianoiret/template-3',
-        youtube: '',
     },
 ];
 
