@@ -11,24 +11,22 @@ const Project = ({ id, photo, projectName, projectDescription, skills, accomplis
                         <img src={photo}></img>
                         <h2>{projectName}</h2>
                         <p>{projectDescription}</p>
-                        <button class="read-more-button btn-green-2" role="button" onClick={() => setFlipCard(true)}>Read more <i class="fas fa-long-arrow-alt-right"></i></button>
-                        {/* <button class="read-more-button btn-green-2" role="button" onClick={() => handleClick(button)}>{button} <i class="fas fa-long-arrow-alt-right"></i></button> */}
+                        <button class="read-more-button btn-green-2" role="button" onClick={() => setFlipCard(true)}>Read more <i className="fas fa-long-arrow-alt-right"></i></button>
                     </div>
             <div className={!flipCard ? 'hidden' : 'col-md-4 card box box-4'}>
-                <h2 class="accomplishments">Accomplishments</h2>
-                <i class="fas fa-times close-button" onClick={() => setFlipCard(false)}></i>
-                {/* <i class="fas fa-times close-button" onClick={() => !handleClick(button)}></i> */}
+                <h2 className="accomplishments">Accomplishments</h2>
+                <i className="fas fa-times close-button" onClick={() => setFlipCard(false)}></i>
                 {accomplishments.map((accomplishment) => {
                     return (
-                        <p class="check"><i class="fas fa-check"></i>{accomplishment}</p>
+                        <p className="check"><i className="fas fa-check"></i>{accomplishment}</p>
                     );
                 })}
-                <p><i class="note">{note}</i></p>
-                <div class="icons-link">
-          <a href={webLink} target="_blank"><i class="fas fa-external-link-alt"></i></a>
-          <a href={github} target="_blank"><i class="fab fa-github"></i></a>
+                <p><i className="note">{note}</i></p>
+                <div className="icons-link">
+          <a href={webLink} target="_blank"><i className="fas fa-external-link-alt"></i></a>
+          <a href={github} target="_blank"><i className="fab fa-github"></i></a>
           {youtube && (
-          <a href={youtube} target="_blank"><i class="fab fa-youtube"></i></a>
+          <a href={youtube} target="_blank"><i className="fab fa-youtube"></i></a>
           )}
         </div>
             </div>
