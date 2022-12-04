@@ -4,11 +4,11 @@ const About = () => {
         <div className="container-right">
             <div id="about">
                 <h1>About</h1>
-                <p>I'm a passionate Software Developer with a creative mindset who has
-                completed <a href="https://www.lewagon.com/" target="_blank" rel="noreferrer"><nobr>Le Wagon</nobr></a> web development bootcamp, rated by students best
-                bootcamp in the world.<br />
-                I’ve always had an interest for design. From my background in hospitality, sales and customer relationship, I developed a customer-focused mindset, essential to design websites tailored for my clients and users. Both this passion for design and my work experiences make me particularly conscious of the user interface and experience.<br />
-                I'm currently working at REA Group, ranked one of the best place to work in Australia and one of the best workplace for women.</p>
+                <p>I am a passionate Software Developer with a creative mindset, based in Sydney.<br /> 
+                My dedication to coding brought me to undertake/complete a web development bootcamp - <a href="https://www.lewagon.com/" target="_blank" rel="noreferrer"><nobr>Le Wagon Melbourne</nobr></a>.<br />
+                Throughout this tech journey, I developed a strong interest in front-end development with a focus on the user interface and experience. 
+                I'm currently working at <a href="https://www.rea-group.com/" target="_blank" rel="noreferrer">REA Group</a>, ranked one of the best places to work in Australia and one of the best workplaces for women. I have been selected for the <a href="https://www.rea-group.com/careers/springboard-to-tech-program/" target="_blank" rel="noreferrer"><nobr>Springboard to Tech</nobr></a> program where I had the opportunity to learn and work within a large range of tech stacks such as Typescript, React, GraphQL, Kotlin, Scala, AWS & more, through 2 rotations, in 12 months.<br />
+                Continued focus on career development, growth opportunities and learning.</p>
             </div>
         </div>
         </>
