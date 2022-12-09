@@ -7,16 +7,14 @@ const Projects = () => {
     return (
         <>
         <div className="container-right">
-        <div id="projects">
-        <h1>Projects</h1>
-        <div id="boxes" className="row">
-            {projectsData.map((project) => {
-                return <Project key={project.id}{...project}/>
-
-            })}
-            
-        </div>
-        </div>
+            <div id="projects">
+                <h1>Projects</h1>
+                <div id="boxes" className="row">
+                    {projectsData.map((project) => {
+                        return <Project key={project.id}{...project}/>
+                        })}
+                </div>
+            </div>
         </div>
         </>
     )

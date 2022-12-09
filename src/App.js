@@ -10,6 +10,7 @@ import Sidebar from "./components/Sidebar";
 import Skills from "./components/Skills";
 
 function App() {
+
   return (
     <>
     <Sidebar></Sidebar>

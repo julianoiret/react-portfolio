@@ -19,7 +19,8 @@
   
   .box {
     width: 30%;
-    min-height: 515px;
+    min-height: 600px;
+    max-height: 600px;
     margin-bottom: 40px;
     padding: 0 0 50px 0;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
@@ -39,9 +40,30 @@
     font-weight: 500;
     padding: 20px 10px 5px 10px;
   }
+
+  .box .release {
+    font-style: italic;
+    font-size: 20px;
+  }
   
   .box p {
     padding: 10px 10px 5px 10px;
+  }
+
+  .box .skills-section {
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+ .box .skills-section .skill-badge {
+    margin: 8px 5px 8px 5px;
+    padding: 5px 10px;
+    color: #a5a58d;
+    background-color: #FAF9F6; 
   }
   
   .box-4 .fa-check, .box-4 p {
@@ -96,7 +118,7 @@
   .accomplishments {
     font-weight: 300 !important;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 8px;
     margin-left: 10px;
   }
   
