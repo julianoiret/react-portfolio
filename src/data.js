@@ -29,7 +29,7 @@ export const projectsData = [
         photo: require(`./images/react-projects.png`),
         projectName: "React projects",
         projectYear: '2021',
-        projectDescription: 'All my React projects from Free Code Camp in one webiste.',
+        projectDescription: 'All my React projects from freeCodeCamp in one webiste.',
         skills: ["React", "Javascript", "HTML", "CSS"],
         accomplishments: ["Reviews slider", "Clone of Stripe menu", "Modal", "Accordion", "Grocery && Birthday list", "Shopping cart"],
         note: '...& more projects!',
@@ -79,7 +79,7 @@ export const experienceData = [
         id: 1,
         job: "👩🏻‍💻 Associate Developer | REA Group",
         date: "2022 - Present",
-        description: "random text random text random text random text random text",
+        description: "For my first year as an Associate Developer, I was part of the Springboard to Tech Program; I had the chance to work with 2 teams, Ignite in customer and Property Owner Web in consumer. I worked independently and in pair programming on a wide range of tech stacks and worked on multiple back-end and front-end projects in an agile environment.",
         where: "Sydney (Australia)"
     },
     {
@@ -128,7 +128,7 @@ export const educationData = [
         title: "Apollo Graph Developer | Associate",
         description: "Odyssey is Apollo's official learning platform that offers free hands-on GraphQL tutorials. Each GraphQL tutorial comes with a real-life application that I built along with the instructor, step by step. I got many opportunities to practice with in-lesson code challenges to keep things concrete and hands-on.",
         curriculum: ["Understand the GraphQL & Apollo ecosystem", "Design a basic schema", "Create an Apollo Server and connect to a REST data source", "Implement Apollo Client library in a React app, build a basic GraphQL query and display results", "Use arguments in queries and resolvers", "Add a mutation to the schema", "Explain the best practices for shaping a mutation response and handling errors", "Use the `useMutation` hook to send a mutation to the server"],
-        accomplishment: ["Shipped to production an app 'Catstronaut", "Configure Apollo Server and Client for production"],
+        accomplishment: ["Shipped to production an app 'Catstronaut'", "Configure Apollo Server and Client for production"],
         time: "Certification issued on October 2022 | Online",
     },
     {

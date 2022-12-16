@@ -50,6 +50,10 @@ const Skills = () => {
                             <p>GraphQL</p>
                         </div>
                         <div className="container-skills">
+                            <img src={require(`../images/gatsby.png`)} style={{width: '73px'}}></img>
+                            <p>Gatsby</p>
+                        </div>
+                        <div className="container-skills">
                             <img src={require(`../images/ruby.png`)} style={{width: '65px'}}></img>
                             <p>Ruby</p>
                         </div>

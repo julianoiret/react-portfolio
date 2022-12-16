@@ -47,7 +47,7 @@ const Sidebar = () => {
 
                 <div className="sidebar sidebar-8">
                     <i className="fas fa-file icon-menu fa-2x" id="icon-8"></i>
-                    {/* <a href="https://julianoiret.github.io/portfolio/img/julia-noiret-resume.pdf" target="_blank">Resume</a> */}
+                    <a href="" target="_blank">Resume (CS)</a>
             </div>
         </div>
     </nav>
