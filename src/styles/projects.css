@@ -188,6 +188,10 @@
     .box{
       width: 100%;
     }
+
+    button {
+      width: 60%;
+    }
   }
   
   
