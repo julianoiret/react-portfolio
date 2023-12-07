@@ -29,7 +29,7 @@ export const projectsData = [
         photo: require(`./images/react-projects.png`),
         projectName: "React projects",
         projectYear: '2021',
-        projectDescription: 'All my React projects from freeCodeCamp in one webiste.',
+        projectDescription: 'All my React projects from freeCodeCamp in one website.',
         skills: ["React", "Javascript", "HTML", "CSS"],
         accomplishments: ["Reviews slider", "Clone of Stripe menu", "Modal", "Accordion", "Grocery && Birthday list", "Shopping cart"],
         note: '...& more projects!',
@@ -79,7 +79,7 @@ export const experienceData = [
         id: 1,
         job: "👩🏻‍💻 Associate Developer | REA Group",
         date: "2022 - Present",
-        description: "For my first year as an Associate Developer, I was part of the Springboard to Tech Program; I had the chance to work with 2 teams, Ignite in customer and Property Owner Web in consumer. I worked independently and in pair programming on a wide range of tech stacks and worked on multiple back-end and front-end projects in an agile environment.",
+        description: "Build UI components using TypeScript, React, styled-component, testing library, and APIs using NestJS, TypeScript and REA’s intern tools for realestate.com.au and ignite.realestate.com.au - Write, maintain and improve code - Review and provide feedback on pull requests - Ship a native project within 2 weeks using Kotlin and GraphQL, with a team of Grads and Springboarders - Work on pair-programming and independently, in an Agile environment - Additional technical expertise includes working with JavaScript, Scala, AWS, and Docker",
         where: "Sydney (Australia)"
     },
     {

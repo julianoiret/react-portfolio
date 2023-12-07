@@ -44,7 +44,7 @@ const ResponsiveNav = () => {
             </div>
             <div className="sidebar sidebar-8">
               <i className="fas fa-file icon-menu fa-2x" id="icon-8"></i>
-              <a href="" download target="_blank">Resume (coming soon)</a>
+              <a href="./images/julia-hanard-resume.pdf" download target="_blank">Resume</a>
             </div>
           </div>
         </div>
